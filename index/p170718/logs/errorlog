@@ -1,0 +1,41 @@
+[INFO ] 2017-08-01 05:00:03 Method: com.aisino.tzgs.service.SumService.dataCount(SumService.java:46)
+======接收传入的Excel文件信息======
+  [INFO ] 2017-08-01 05:00:03 Method: com.aisino.tzgs.service.SumService.dataCount(SumService.java:47)
+======Excel文件路径 ： [/home/fanpf/Users/1.xlsx , /home/fanpf/Users/2.xlsx , /home/fanpf/Users/3.xlsx , /home/fanpf/Users/4.xlsx]
+  [INFO ] 2017-08-01 05:00:03 Method: com.aisino.tzgs.service.SumService.dataCount(SumService.java:48)
+======要汇总的sheet和cell位置信息： [sheet1:18,2 , sheet1:18,6]
+  [INFO ] 2017-08-01 05:00:35 Method: com.aisino.tzgs.service.SumService.dataCount(SumService.java:108)
+======汇总输出的JSON： 
+  [INFO ] 2017-08-01 05:11:42 Method: com.aisino.tzgs.service.SumService.dataCount(SumService.java:46)
+======接收传入的Excel文件信息======
+  [INFO ] 2017-08-01 05:11:42 Method: com.aisino.tzgs.service.SumService.dataCount(SumService.java:47)
+======Excel文件路径 ： [/home/fanpf/Users/1.xlsx , /home/fanpf/Users/2.xlsx , /home/fanpf/Users/3.xlsx , /home/fanpf/Users/4.xlsx]
+  [INFO ] 2017-08-01 05:11:42 Method: com.aisino.tzgs.service.SumService.dataCount(SumService.java:48)
+======要汇总的sheet和cell位置信息： [sheet1:18,2 , sheet1:18,6]
+  [INFO ] 2017-08-01 05:12:01 Method: com.aisino.tzgs.service.SumService.dataCount(SumService.java:108)
+======汇总输出的JSON： 
+  [INFO ] 2017-08-01 05:14:10 Method: com.aisino.tzgs.service.SumService.dataCount(SumService.java:46)
+======接收传入的Excel文件信息======
+  [INFO ] 2017-08-01 05:14:10 Method: com.aisino.tzgs.service.SumService.dataCount(SumService.java:47)
+======Excel文件路径 ： [/home/fanpf/Users/1.xlsx , /home/fanpf/Users/2.xlsx , /home/fanpf/Users/3.xlsx , /home/fanpf/Users/4.xlsx]
+  [INFO ] 2017-08-01 05:14:10 Method: com.aisino.tzgs.service.SumService.dataCount(SumService.java:48)
+======要汇总的sheet和cell位置信息： [sheet1:18,2 , sheet1:18,6]
+  [INFO ] 2017-08-01 05:14:16 Method: com.aisino.tzgs.service.SumService.dataCount(SumService.java:108)
+======汇总输出的JSON： 
+  [INFO ] 2017-08-01 05:17:35 Method: com.aisino.tzgs.service.SumService.dataCount(SumService.java:46)
+======接收传入的Excel文件信息======
+  [INFO ] 2017-08-01 05:17:35 Method: com.aisino.tzgs.service.SumService.dataCount(SumService.java:47)
+======Excel文件路径 ： [/home/fanpf/Users/1.xlsx , /home/fanpf/Users/2.xlsx , /home/fanpf/Users/3.xlsx , /home/fanpf/Users/4.xlsx]
+  [INFO ] 2017-08-01 05:17:35 Method: com.aisino.tzgs.service.SumService.dataCount(SumService.java:48)
+======要汇总的sheet和cell位置信息： [sheet1:18,2 , sheet1:18,6]
+  [INFO ] 2017-08-01 05:17:41 Method: com.aisino.tzgs.service.SumService.dataCount(SumService.java:108)
+======汇总输出的JSON： 
+  [INFO ] 2017-08-01 21:18:51 Method: abp.p170718.SumService.dataCount(SumService.java:40)
+======接收传入的Excel文件信息======
+  [INFO ] 2017-08-01 21:18:51 Method: abp.p170718.SumService.dataCount(SumService.java:41)
+======Excel文件路径 ： [/home/fanpf/Users/git/abpdraft/index/p170718/target/classes/abp/p170718/1.xlsx , /home/fanpf/Users/git/abpdraft/index/p170718/target/classes/abp/p170718/2.xlsx , /home/fanpf/Users/git/abpdraft/index/p170718/target/classes/abp/p170718/3.xlsx , /home/fanpf/Users/git/abpdraft/index/p170718/target/classes/abp/p170718/4.xlsx]
+  [INFO ] 2017-08-01 21:18:51 Method: abp.p170718.SumService.dataCount(SumService.java:42)
+======要汇总的sheet和cell位置信息： [sheet1:18,2 , sheet1:18,6]
+  [INFO ] 2017-08-01 21:18:57 Method: abp.p170718.SumService.dataCount(SumService.java:102)
+======汇总输出的JSON： 
+  

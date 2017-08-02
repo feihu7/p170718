@@ -1,4 +1,4 @@
-package com.aisino.tzgs.tools;
+package abp.p170718.util;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -30,23 +30,24 @@ public class ExcelRead {
 		
 		public static String getCellValue(Cell cell){
 			String cellVal = "";
-			switch (cell.getCellType()) {  
-	        case Cell.CELL_TYPE_BLANK:  // 空值
+			
+			switch (cell.getCellTypeEnum()) {  
+	        case BLANK:  // 空值
 	            cellVal = "";  
 	            break;  
-	        case Cell.CELL_TYPE_BOOLEAN:  // 布尔
+	        case BOOLEAN:  // 布尔
 	            cellVal = String.valueOf(cell.getBooleanCellValue());  
 	            break;  
-	        case Cell.CELL_TYPE_ERROR:  // 故障
+	        case ERROR:  // 故障
 	            cellVal = null;  
 	            break;  
-	        case Cell.CELL_TYPE_FORMULA:  // 公式
+	        case FORMULA:  // 公式
 	            Workbook wb = cell.getSheet().getWorkbook();  
 	            CreationHelper crateHelper = wb.getCreationHelper();  
 	            FormulaEvaluator evaluator = crateHelper.createFormulaEvaluator();  
 	            cellVal = getCellValue(evaluator.evaluateInCell(cell));  
 	            break;  
-	        case Cell.CELL_TYPE_NUMERIC:  // 数字
+	        case NUMERIC:  // 数字
 	            if (DateUtil.isCellDateFormatted(cell)) {  // 如果是时间格式
 	            	   SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss"); 
 	                Date theDate = cell.getDateCellValue();  
@@ -55,7 +56,7 @@ public class ExcelRead {
 	                cellVal = NumberToTextConverter.toText(cell.getNumericCellValue());  
 	            }  
 	            break;  
-	        case Cell.CELL_TYPE_STRING:  //字符串
+	        case STRING:  //字符串
 	            cellVal = cell.getRichStringCellValue().getString();  
 	            break;  
 	        default:  
