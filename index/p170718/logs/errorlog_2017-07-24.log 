@@ -1,0 +1,17 @@
+[INFO ] 2017-07-24 01:42:01 Method: com.aisino.tzgs.domain.DataCount.dataCount(DataCount.java:33)
+======接收传入的Excel文件信息======
+  [INFO ] 2017-07-24 01:42:01 Method: com.aisino.tzgs.domain.DataCount.dataCount(DataCount.java:34)
+======Excel文件路径 ： [/home/fanpf/Users/1.xlsx , /home/fanpf/Users/2.xlsx , /home/fanpf/Users/3.xlsx , /home/fanpf/Users/4.xlsx]
+  [INFO ] 2017-07-24 01:42:01 Method: com.aisino.tzgs.domain.DataCount.dataCount(DataCount.java:35)
+======要汇总的sheet和cell位置信息： [sheet1.B18 , sheet1.F18]
+  [INFO ] 2017-07-24 01:42:07 Method: com.aisino.tzgs.domain.DataCount.dataCount(DataCount.java:89)
+======汇总输出的JSON： {"sheet1.B18":{"sum":"87.743","avg":"21.936","max":"24.507","min":"18.5"},"sheet1.F18":{"sum":"11.0","avg":"2.75","max":"4.0","min":"2.0"}}
+  [INFO ] 2017-07-24 21:06:25 Method: com.aisino.tzgs.domain.DataCount.dataCount(DataCount.java:33)
+======接收传入的Excel文件信息======
+  [INFO ] 2017-07-24 21:06:25 Method: com.aisino.tzgs.domain.DataCount.dataCount(DataCount.java:34)
+======Excel文件路径 ： [/home/fanpf/Users/1.xlsx , /home/fanpf/Users/2.xlsx , /home/fanpf/Users/3.xlsx , /home/fanpf/Users/4.xlsx]
+  [INFO ] 2017-07-24 21:06:25 Method: com.aisino.tzgs.domain.DataCount.dataCount(DataCount.java:35)
+======要汇总的sheet和cell位置信息： [sheet1.B18 , sheet1.F18]
+  [INFO ] 2017-07-24 21:06:30 Method: com.aisino.tzgs.domain.DataCount.dataCount(DataCount.java:89)
+======汇总输出的JSON： {"sheet1.B18":{"sum":"87.743","avg":"21.936","max":"24.507","min":"18.5"},"sheet1.F18":{"sum":"11.0","avg":"2.75","max":"4.0","min":"2.0"}}
+  
